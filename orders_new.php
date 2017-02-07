@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Order Migration trial version, using Prestashop API
+ * Order Migration trial version, using Prestashop API (Up-to-date version)
  * Developed by Nethues Team for Order migration purpose
  * From Old OSCommerce Website to New Prestashop
  * NOTE: it is RECOMMENDED to PRE-import customers and other required Items via Prestashop's inbuilt import features, 

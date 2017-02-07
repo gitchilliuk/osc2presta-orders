@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Random password generator
+ * Random password generator (copied function from PrestaShop)
  *
  * @param int $lengthInput Desired length (optional)
  * @param string $flag Output type (NUMERIC, ALPHANUMERIC, NO_NUMERIC, RANDOM)

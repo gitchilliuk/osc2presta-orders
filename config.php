@@ -12,13 +12,12 @@ if ($local) {
     define('DB_TABLE_PREFIX_1', '');
 } else {
     define('DB_HOST_1', 'localhost');
-    define('DB_USER_1', 'ccmwoosc_ccmwoo');
-    define('DB_PASSWORD_1', 'b4V&5L+D8CEQ');
-    define('DB_NAME_1', 'ccmwoosc_ccmwoodb');
+    define('DB_USER_1', 'some DB user production');
+    define('DB_PASSWORD_1', 'DB password production');
+    define('DB_NAME_1', 'DB name production');
     define('DB_TABLE_PREFIX_1', '');
 }
-
-define("USE_API", false);
+define("USE_API", false);//Keep it false (API version is outdated)
 if ($local) {
     define('DB_HOST_2', 'localhost');
     define('DB_USER_2', 'root');
@@ -27,9 +26,9 @@ if ($local) {
     define('DB_TABLE_PREFIX_2', 'ps_');
 } else {
     define('DB_HOST_2', 'localhost');
-    define('DB_USER_2', 'ccmprest_ccmprst');
-    define('DB_PASSWORD_2', 'e4C9!QQpZSEF');
-    define('DB_NAME_2', 'ccmprest_ccmprstdb');
+    define('DB_USER_2', 'production DB user');
+    define('DB_PASSWORD_2', 'production DB password');
+    define('DB_NAME_2', 'production DB name');
     define('DB_TABLE_PREFIX_2', 'ps_');
 }
 
