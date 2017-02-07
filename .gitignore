@@ -1,0 +1,4 @@
+/vendor/
+*.csv
+*.log
+*.txt
