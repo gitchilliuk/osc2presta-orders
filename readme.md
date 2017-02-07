@@ -1,5 +1,5 @@
 # Project
-Custom Oscommerce to Prestashop order migration script.
+Oscommerce to Prestashop order migration script.
 ## Getting Started
 A PHP script to migrate osCommerce orders, requires two DB connections, reads orders from _Oscommerce DB (Source)_ and writes to _Prestashop DB (Target)_, 
 **Note:** it is _RECOMMENDED_ to _PRE-import_ customers and other required Items via Prestashop's inbuilt import features. Various PrestaShop's inbuilt import features can be used (customer, address-book and ZONE based settings _(match osCommerce Zone settings)_)
